@@ -1,0 +1,21 @@
+{
+  "name": "my-site",
+  "description": "",
+  "main": "",
+  "authors": [
+    "seekei <seekeilaw@foxmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/js/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fullpage.js": "^2.9.6"
+  }
+}
