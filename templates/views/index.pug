@@ -1,11 +1,16 @@
 extends ../layouts/default
 
 block css
-	link(href="/styles/site.min.css", rel="stylesheet")
+	link(href="/js/bower/fullpage.js/dist/jquery.fullpage.css", rel="stylesheet")
+	link(href="/styles/index.less", rel="stylesheet/less")
 		
 block content
-	.container
-		h1 test
+	#fullpage
+		.section(style="background-color:#ff604c"): h1 some section1
+		.section(style="background-color:#0098e8"): h1 some section2
+		.section(style="background-color:#ff6c7e"): h1 some section3
+		.section(style="background-color:#ffc435"): h1 some section4
 		
 block js
-	script(src='/js/bower/js')
+	script(src='/js/bower/fullpage.js/dist/jquery.fullpage.js')
+	script(src='/js/index.js')
